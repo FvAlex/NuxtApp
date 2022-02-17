@@ -1,19 +1,15 @@
 <template>
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
-      <v-card class="logo py-4 d-flex justify-center">
-        <NuxtLogo />
-        <VuetifyLogo />
-      </v-card>
       <v-card>
         <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
+          Welcome to the Fat World
         </v-card-title>
         <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
+          <p>You can find all the post and the comment of the Fat Man and Fat Woman.</p>
           <p>
-            For more information on Vuetify, check out the <a
-              href="https://vuetifyjs.com"
+            For more information on Fat World, check our <a
+              href="https://www.mcdonalds.fr/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -22,55 +18,45 @@
           </p>
           <p>
             If you have questions, please join the official <a
-              href="https://chat.vuetifyjs.com/"
+              href="https://www.quick.fr/"
               target="_blank"
               rel="noopener noreferrer"
               title="chat"
             >
-              discord
+              site
             </a>.
           </p>
           <p>
-            Find a bug? Report it on the github <a
-              href="https://github.com/vuetifyjs/vuetify/issues"
+            Find a bug? Report it on the <a
+              href="https://sante.lefigaro.fr/mieux-etre/nutrition-aliments/fruits-legumes/quest-ce-que-cest"
               target="_blank"
               rel="noopener noreferrer"
               title="contribute"
             >
-              issue board
+              site report
             </a>.
           </p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
+          <p>Thank you for making us a better world.</p>
           <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
+            <em><small>&mdash; Alexandre Fievez</small></em>
           </div>
           <hr class="my-3">
           <a
-            href="https://nuxtjs.org/"
+            href="https://www.mcdonalds.fr/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Nuxt Documentation
+            Documentation
           </a>
           <br>
           <a
-            href="https://github.com/nuxt/nuxt.js"
+            href="https://github.com/mcdcorp"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Nuxt GitHub
+            GitHub
           </a>
         </v-card-text>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/inspire"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
       </v-card>
     </v-col>
   </v-row>

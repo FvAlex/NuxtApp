@@ -106,11 +106,6 @@ export default {
           to: '/'
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        },
-        {
           icon: 'mdi-format-align-left',
           title: 'Liste',
           to: '/posts'
